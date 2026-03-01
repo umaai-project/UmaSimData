@@ -8781,6 +8781,42 @@
     ],
     "star": 5
   },
+  "112901": {
+    "bonusData": [],
+    "fiveStatusBonus": [
+      10,
+      10,
+      10,
+      0,
+      0
+    ],
+    "fiveStatusInitial": [
+      127,
+      102,
+      102,
+      111,
+      108
+    ],
+    "freeRaces": [],
+    "gameId": 112901,
+    "name": "[The Changer]杏目",
+    "preferRaces": [],
+    "preferReds": [],
+    "races": [
+      11,
+      24,
+      30,
+      33,
+      43,
+      45,
+      53,
+      56,
+      58,
+      67,
+      69
+    ],
+    "star": 5
+  },
   "113101": {
     "bonusData": [],
     "fiveStatusBonus": [
