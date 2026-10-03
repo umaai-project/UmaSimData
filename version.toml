@@ -17,7 +17,7 @@ sha1 = "f13b235be9eea027169cdbd414db8cfd974cb583"
 
 [ai_data]
 name = "AI数据"
-date = "2026-10-02 20:07:03.122105"
+date = "2026-10-03 17:47:19.901577"
 filelist = [
 	"umaDB.json",
     "cardDB.json",
@@ -25,4 +25,4 @@ filelist = [
 ]
 install_path = "gamedata"
 index = 2
-sha1 = "147d9b950a7a2b33b92757dc6b4d4d9d2e7bd6a4"
+sha1 = "09233f770689312c30ce634b2efb55f6d5d807fe"
