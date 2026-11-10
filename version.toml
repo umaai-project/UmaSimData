@@ -1,10 +1,10 @@
 [ura_data]
 name = "小黑板数据"
-date = "2026-11-01 15:56:04.253564"
+date = "2026-11-10 13:41:58"
 filelist = ["events.br", "events_female.br", "events_male.br", "factor_ids.br", "factor_effects.br", "names.br", "skill_data.br", "skill_planning.br", "skill_upgrade_speciality.br", "talent_skill_sets.br", "succession_relation.br", "wins_saddle.br"]
 install_path = "%uraroot%/"
 index = 3
-sha1 = "f83f8c3d31e563b2c42c95cfecba295f1d1e13af"
+sha1 = "1f91b6a6816173f6adb7aaa359ad59226e4b902d"
 
 [ai_data]
 name = "AI数据"

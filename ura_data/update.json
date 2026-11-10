@@ -1,47 +1,47 @@
 {
   "protocol": 1,
-  "version": "2026-11-01 15:56:04.253564",
-  "date": "2026-11-01 15:56:04.253564",
+  "version": "2026-11-10 13:41:58",
+  "date": "2026-11-10 13:41:58",
   "files": [
     {
       "path": "events.br",
-      "size": 648285,
-      "sha256": "4ced269315b99aebda0ea34f093d34c411b7b793b32a3dc6053f125ef07eda9b"
+      "size": 650083,
+      "sha256": "0d203f396472d32376c27ad90eb79bd32a9d1f71ff41c98696f884cd1890cbcc"
     },
     {
       "path": "events_female.br",
-      "size": 797530,
-      "sha256": "59971e29d07a7d3687bd15cc53dd618c323569bc38470160e0174c215a5378af"
+      "size": 796791,
+      "sha256": "e123e7426bc9df0f2d43d9acda4d56b8cdba6dc72f0f45139fa74d3959f457a4"
     },
     {
       "path": "events_male.br",
-      "size": 794665,
-      "sha256": "9e170049704d2bafc90481e86710a00faeac51945d472b65062051974887320f"
+      "size": 796660,
+      "sha256": "489fb3bafefefe5e2bb0189b4803fb34adde06081d224f67084deeef66bd49ea"
     },
     {
       "path": "factor_ids.br",
-      "size": 23203,
-      "sha256": "2e60153bb3615d65efcbdf1dc1bc49929e349ad233b185e8a68cedfec1c08b9f"
+      "size": 23266,
+      "sha256": "0cf9e0b3b18d75738392ef75b98e28c3f0b124b121bc3f15c5fdf51b3d4fae80"
     },
     {
       "path": "factor_effects.br",
-      "size": 24133,
-      "sha256": "ef3068a48bdf4a4f8a1e812fcb323462a8691deafe6e23b0bbce6a4b21d02b81"
+      "size": 24198,
+      "sha256": "822ad424df9274188bbae362a3fc99052f5d9b205b674173ce6b5ea4347fcd8e"
     },
     {
       "path": "names.br",
-      "size": 25595,
-      "sha256": "b70eb993f45920a17526ae055e3d744a16bdc75ad71d57b6cb6cfb3083770f36"
+      "size": 25681,
+      "sha256": "42bc4a4fed422b9c21e852442f97929bc88d2648ce3fce26536edddcfd281ce4"
     },
     {
       "path": "skill_data.br",
-      "size": 58619,
-      "sha256": "31d3790edf2e0eb3a448dc3972c6077d498bfd5d79a60f26a9c2209f689ead70"
+      "size": 58805,
+      "sha256": "4f945303145e4937a26374f60c8a91e7ff591be5d2df8b22a917556a88abb8dc"
     },
     {
       "path": "skill_planning.br",
-      "size": 76778,
-      "sha256": "64b996c8028622524f74a26f1f983d50ea20505db8b8e19b1b632f4c7de20cfa"
+      "size": 76941,
+      "sha256": "a7ae9bcea973a3d6250247df37cc5447e1bf04b8cfd3768b8f3da5ff4bc87e37"
     },
     {
       "path": "skill_upgrade_speciality.br",
@@ -50,8 +50,8 @@
     },
     {
       "path": "talent_skill_sets.br",
-      "size": 22913,
-      "sha256": "5e50d5ed0da053cb121830907a177bec21b158021892517cd5a49fd125189f29"
+      "size": 22965,
+      "sha256": "12ea2c5a9f80a613f4b68fd0478d40728b6bc9556a9351b91dc3c112940b22d9"
     },
     {
       "path": "succession_relation.br",
