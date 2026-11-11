@@ -1,0 +1,77 @@
+{
+  "protocol": 1,
+  "version": "2026-11-08 08:37:04.548359",
+  "date": "2026-11-08 08:37:04.548359",
+  "files": [
+    {
+      "path": "Plugins/DMMPlugin.zip",
+      "size": 514289,
+      "sha256": "20b89ebd3c82209da19ddb6333da72d12017ea09fe2f07ad93f9d1dad279ee49"
+    },
+    {
+      "path": "Plugins/EventLoggerPlugin.zip",
+      "size": 920855,
+      "sha256": "eef44925b4c19ef81fe1eeb3960b0dc0477ef86cb0d48722b1cffec96d4837d5"
+    },
+    {
+      "path": "Plugins/EventResponseAnalyzer.zip",
+      "size": 51453,
+      "sha256": "a363193a784335bb8b7a30cc9928f1f59c1bf44b9974dbc3902428b656684869"
+    },
+    {
+      "path": "Plugins/FestaScenarioAnalyzer.zip",
+      "size": 68219,
+      "sha256": "25d654c9c5e2a104041b38b8afbd8e61a2d7d684ca60d2f9ba960c07bb1f0777"
+    },
+    {
+      "path": "Plugins/GamePacketCollector.zip",
+      "size": 48059,
+      "sha256": "c2de0747578a166938866419cb2fa1562910e270f35b525b7ce28d6a5de2de74"
+    },
+    {
+      "path": "Plugins/PioneerScenarioAnalyzer.zip",
+      "size": 54078,
+      "sha256": "8c437e62b15afa1fbcb9d14b394b5f9a863dfacfb8f585a93f4043ff8f223ba5"
+    },
+    {
+      "path": "Plugins/RaceAnalyzer.zip",
+      "size": 12711,
+      "sha256": "8ee417dd23d6c18f3de1b5f4603365e215f348b8c7e5e2bb6d28001e342a4bee"
+    },
+    {
+      "path": "Plugins/RamenScenarioAnalyzer.zip",
+      "size": 46323,
+      "sha256": "65e1c3cf941a01a6b7bbc65fc087a0dea734e993af6fd460ef38b5b2cb597827"
+    },
+    {
+      "path": "Plugins/SendGameStatusPlugin.zip",
+      "size": 335984,
+      "sha256": "8b22fb37df8fc5bb1da3b3905b350db6256b9173111efe382ac59a72fd6577e5"
+    },
+    {
+      "path": "Plugins/SkillEffectPlugin.zip",
+      "size": 28038,
+      "sha256": "3f6426b9d9649ee5da51984ca820e41a2d65c691a9c1bec24f6573336f00cc38"
+    },
+    {
+      "path": "Plugins/SkillTipsResponseAnalyzer.zip",
+      "size": 22504482,
+      "sha256": "c95ab6b9e8c1443966ce9f7e790401860ee62c244c0a351cd5c4b14678a99cdf"
+    },
+    {
+      "path": "Plugins/TeamStadiumOpponentListResponseAnalyzer.zip",
+      "size": 15969,
+      "sha256": "aa7c00582a66e4e5beee94b1291cc1ed78074135dc7da653da6f97f0e478ee6c"
+    },
+    {
+      "path": "Plugins/WinSaddleAnalyzer.zip",
+      "size": 345163,
+      "sha256": "20d0769f62423668c835e00563695db6821c90dc9fe33571384d107ebe29bcdc"
+    },
+    {
+      "path": "version.json",
+      "size": 74,
+      "sha256": "b219e4a60228e240803d5aebe766ba6073bd2f376d3d1d59654fed691092b610"
+    }
+  ]
+}

@@ -9,11 +9,16 @@ sha1 = "1f91b6a6816173f6adb7aaa359ad59226e4b902d"
 [ai_data]
 name = "AI数据"
 date = "2026-11-10 12:35:32.912264"
-filelist = [
-	"umaDB.json",
-    "cardDB.json",
-    "text_data_dict.json"  
-]
+filelist = ["umaDB.json", "cardDB.json", "text_data_dict.json"]
 install_path = "gamedata"
 index = 2
 sha1 = "6451b72a0967cdd9bde64f33f48de077c1d437c8"
+
+[ura_plugins]
+name = "小黑板插件"
+date = "2026-11-08 08:37:04.548359"
+filelist = ["Plugins/DMMPlugin.zip", "Plugins/EventLoggerPlugin.zip", "Plugins/EventResponseAnalyzer.zip", "Plugins/FestaScenarioAnalyzer.zip", "Plugins/GamePacketCollector.zip", "Plugins/PioneerScenarioAnalyzer.zip", "Plugins/RaceAnalyzer.zip", "Plugins/RamenScenarioAnalyzer.zip", "Plugins/SendGameStatusPlugin.zip", "Plugins/SkillEffectPlugin.zip", "Plugins/SkillTipsResponseAnalyzer.zip", "Plugins/TeamStadiumOpponentListResponseAnalyzer.zip", "Plugins/WinSaddleAnalyzer.zip", "version.json"]
+glob = ["Plugins/*.zip"]
+version_file = "version.json"
+install_path = "%uraroot%/"
+index = 4

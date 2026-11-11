@@ -1,2 +1,4 @@
 *.zip
 *.7z
+# 例外：小黑板插件包是 ura_plugins 频道的数据本体，必须入库（channel 目录随 coscmd 上传）
+!ura_plugins/Plugins/*.zip
