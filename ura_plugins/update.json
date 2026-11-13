@@ -1,7 +1,7 @@
 {
   "protocol": 1,
-  "version": "2026-11-08 08:37:04.548359",
-  "date": "2026-11-08 08:37:04.548359",
+  "version": "2026-11-11 18:43:32.835460",
+  "date": "2026-11-11 18:43:32.835460",
   "files": [
     {
       "path": "Plugins/DMMPlugin.zip",
@@ -10,8 +10,8 @@
     },
     {
       "path": "Plugins/EventLoggerPlugin.zip",
-      "size": 920855,
-      "sha256": "eef44925b4c19ef81fe1eeb3960b0dc0477ef86cb0d48722b1cffec96d4837d5"
+      "size": 905512,
+      "sha256": "7c653e93de85c1516e97112d61e26d82abed24c54f927770916b2feaef3a689b"
     },
     {
       "path": "Plugins/EventResponseAnalyzer.zip",
@@ -71,7 +71,7 @@
     {
       "path": "version.json",
       "size": 74,
-      "sha256": "b219e4a60228e240803d5aebe766ba6073bd2f376d3d1d59654fed691092b610"
+      "sha256": "3912ac3dd0fd5b271137308861bb2c2c15c103312a2d745540dcaeeb2f6d90e2"
     }
   ]
 }
