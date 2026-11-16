@@ -2,3 +2,7 @@
 *.7z
 # 例外：小黑板插件包是 ura_plugins 频道的数据本体，必须入库（channel 目录随 coscmd 上传）
 !ura_plugins/Plugins/*.zip
+
+# Python 运行时缓存（make_version.py 被 import / py_compile 时产生）
+__pycache__/
+*.pyc

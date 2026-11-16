@@ -1,22 +1,22 @@
 [ura_data]
 name = "小黑板数据"
-date = "2026-11-10 13:41:58"
+date = "2026-11-16 13:02:44.488189"
 filelist = ["events.br", "events_female.br", "events_male.br", "factor_ids.br", "factor_effects.br", "names.br", "skill_data.br", "skill_planning.br", "skill_upgrade_speciality.br", "talent_skill_sets.br", "succession_relation.br", "wins_saddle.br"]
 install_path = "%uraroot%/"
 index = 3
-sha1 = "1f91b6a6816173f6adb7aaa359ad59226e4b902d"
+sha1 = "f4fbac9a491ba0edd22c7391afc026d6edafa5ca"
 
 [ai_data]
 name = "AI数据"
-date = "2026-11-10 12:35:32.912264"
+date = "2026-11-16 14:06:31.982470"
 filelist = ["umaDB.json", "cardDB.json", "text_data_dict.json"]
 install_path = "gamedata"
 index = 2
-sha1 = "6451b72a0967cdd9bde64f33f48de077c1d437c8"
+sha1 = "410f617ce00a605e7d97bd1900bcbf3aef6a50d1"
 
 [ura_plugins]
 name = "小黑板插件"
-date = "2026-11-11 18:43:32.835460"
+date = "2026-11-15 19:29:37.683405"
 filelist = ["Plugins/DMMPlugin.zip", "Plugins/EventLoggerPlugin.zip", "Plugins/EventResponseAnalyzer.zip", "Plugins/FestaScenarioAnalyzer.zip", "Plugins/GamePacketCollector.zip", "Plugins/PioneerScenarioAnalyzer.zip", "Plugins/RaceAnalyzer.zip", "Plugins/RamenScenarioAnalyzer.zip", "Plugins/SendGameStatusPlugin.zip", "Plugins/SkillEffectPlugin.zip", "Plugins/SkillTipsResponseAnalyzer.zip", "Plugins/TeamStadiumOpponentListResponseAnalyzer.zip", "Plugins/WinSaddleAnalyzer.zip", "version.json"]
 glob = ["Plugins/*.zip"]
 version_file = "version.json"

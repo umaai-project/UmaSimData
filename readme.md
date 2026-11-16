@@ -31,8 +31,42 @@ UmaSimData
 
 ```bash
 python make_version.py --no-upload   # 只生成，不上传
-python make_version.py               # 生成并上传到 COS
+python make_version.py               # 生成 → 上传 → 刷新 CDN
+python make_version.py --no-purge    # 上传但不刷新 CDN（排障用）
 ```
 
 `ura_plugins/Plugins/*.zip` 由 `.gitignore` 例外放行（`!ura_plugins/Plugins/*.zip`），
 其余 `*.zip` / `*.7z` 仍不入库。
+
+## 缓存刷新（上传后自动）
+
+频道里是**同名换内容**的文件（`Plugins/EventLoggerPlugin.zip` 换新包仍叫这个名），
+CDN 对 `.zip` 用了长 TTL，源站的 `Cache-Control: max-age=0` 被缓存规则覆盖 →
+边缘会继续吐旧包，客户端 sha256 校验不通过，报「文件校验不一致」并回滚。
+
+所以脚本在 `coscmd upload` 成功后自动刷新：
+
+| 动作 | 范围 |
+|---|---|
+| `PurgePathCache`（目录刷新） | 本次重写过清单的每个频道目录 `https://cdn2.viktorlab.cn/uma/<频道>/` |
+| `PurgeUrlsCache`（URL 刷新） | `https://cdn2.viktorlab.cn/uma/version.toml`（旧客户端读的根清单） |
+
+- 密钥：优先 `CDN_SECRET_ID` / `CDN_SECRET_KEY`，其次 `TENCENTCLOUD_SECRET_ID` / `TENCENTCLOUD_SECRET_KEY`、
+  `COS_SECRET_ID` / `COS_SECRET_KEY`，**最后回落到 coscmd 的 `~/.cos.conf`**——上传本来就用 `coscmd`，
+  那套密钥就在这个文件里，通常不用另配环境变量（可用 `COS_CONFIG_FILE` 指定别的配置文件）
+- 该密钥需要有 CDN 刷新权限（`QcloudCDNFullAccess`，或含 `PurgePathCache` / `PurgeUrlsCache` 的自定义策略）；
+  只绑了 COS 的子账号会报 `AuthFailure.UnauthorizedOperation`，换密钥或补策略即可
+- 域名可用 `UMA_CDN_BASE` 覆盖（默认 `https://cdn2.viktorlab.cn/uma`）
+- 上传命令返回非 0 时不刷新（先排查上传，避免把「没更新成功的源站」刷成最新）
+- 刷新失败只警告不中断（上传已完成），并打印可直接粘到控制台的目录 / URL 清单
+- 目录刷新有每日额度（百条量级）；每次发布用「频道数条目录 + 1 条 URL」，正常够用
+- 生效通常 1–5 分钟；未生效前客户端仍会报校验不一致
+
+实现走两条路，入参出参一致：
+
+1. **官方 SDK**（推荐）：`pip install tencentcloud-sdk-python-cdn`，脚本自动使用；
+2. **内置签名兜底**：未装 SDK 时用标准库实现 TC3-HMAC-SHA256，保证缺包也能刷。
+   该实现已按官方样例对拍（`payload` / `canonicalRequest` 哈希与文档逐字符一致），
+   并且用假密钥实测能拿到 `AuthFailure.SecretIdNotFound`（说明请求格式被网关接受，
+   只差真实密钥）。
+

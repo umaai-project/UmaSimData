@@ -1,47 +1,47 @@
 {
   "protocol": 1,
-  "version": "2026-11-10 13:41:58",
-  "date": "2026-11-10 13:41:58",
+  "version": "2026-11-16 13:02:44.488189",
+  "date": "2026-11-16 13:02:44.488189",
   "files": [
     {
       "path": "events.br",
-      "size": 650083,
-      "sha256": "0d203f396472d32376c27ad90eb79bd32a9d1f71ff41c98696f884cd1890cbcc"
+      "size": 653048,
+      "sha256": "ca6ea59c3737126ac9127305c1cdd651cd984c4dcaf3dfde447dc9e7bb949715"
     },
     {
       "path": "events_female.br",
-      "size": 796791,
-      "sha256": "e123e7426bc9df0f2d43d9acda4d56b8cdba6dc72f0f45139fa74d3959f457a4"
+      "size": 799717,
+      "sha256": "cd26b28b5fe1d85cf28fa869c1e0f5d46f345877b7085e1ed666fb28cec6b17d"
     },
     {
       "path": "events_male.br",
-      "size": 796660,
-      "sha256": "489fb3bafefefe5e2bb0189b4803fb34adde06081d224f67084deeef66bd49ea"
+      "size": 801117,
+      "sha256": "ecf5dd7e77b13a970f257e47015a61486badef78861578c4dccf291a92a233e8"
     },
     {
       "path": "factor_ids.br",
-      "size": 23266,
-      "sha256": "0cf9e0b3b18d75738392ef75b98e28c3f0b124b121bc3f15c5fdf51b3d4fae80"
+      "size": 23316,
+      "sha256": "9688864de42f529bfcea8139f7c96eb53307ae43ecff085a231391460ec12e64"
     },
     {
       "path": "factor_effects.br",
-      "size": 24198,
-      "sha256": "822ad424df9274188bbae362a3fc99052f5d9b205b674173ce6b5ea4347fcd8e"
+      "size": 24257,
+      "sha256": "3e1edcd4b1f1a712abb35fec39b4f159d48b278ecc66f0ffec3bc49a641b3eb2"
     },
     {
       "path": "names.br",
-      "size": 25681,
-      "sha256": "42bc4a4fed422b9c21e852442f97929bc88d2648ce3fce26536edddcfd281ce4"
+      "size": 25726,
+      "sha256": "4fa3a3428bacefc4abcb25249bd0e9608e1632940db9eef689e507845714cc28"
     },
     {
       "path": "skill_data.br",
-      "size": 58805,
-      "sha256": "4f945303145e4937a26374f60c8a91e7ff591be5d2df8b22a917556a88abb8dc"
+      "size": 59038,
+      "sha256": "2729e8da4a4296478da6ee3a6fd92ffe8c24191aaaec603978c9039f512657eb"
     },
     {
       "path": "skill_planning.br",
-      "size": 76941,
-      "sha256": "a7ae9bcea973a3d6250247df37cc5447e1bf04b8cfd3768b8f3da5ff4bc87e37"
+      "size": 77272,
+      "sha256": "a83b6f330d2e4b278ea958d19fcd758d16e9e72724cd471482839960aea861da"
     },
     {
       "path": "skill_upgrade_speciality.br",
@@ -50,13 +50,13 @@
     },
     {
       "path": "talent_skill_sets.br",
-      "size": 22965,
-      "sha256": "12ea2c5a9f80a613f4b68fd0478d40728b6bc9556a9351b91dc3c112940b22d9"
+      "size": 23039,
+      "sha256": "39b5390ef68d27793e0b738ed39bc0d9e2af29e29cd2d308747df1a19e63060e"
     },
     {
       "path": "succession_relation.br",
-      "size": 22647,
-      "sha256": "633f31187985decdac9ddef5f7bcb0ba1395fc4ce4d8f53892e06fcc996c860a"
+      "size": 22715,
+      "sha256": "a82a2a6166a8e42f27ca28840681bfe7393e2a22d5678cd1299700fc4a8537d4"
     },
     {
       "path": "wins_saddle.br",

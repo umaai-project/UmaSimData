@@ -1,7 +1,7 @@
 {
   "protocol": 1,
-  "version": "2026-11-11 18:43:32.835460",
-  "date": "2026-11-11 18:43:32.835460",
+  "version": "2026-11-15 19:29:37.683405",
+  "date": "2026-11-15 19:29:37.683405",
   "files": [
     {
       "path": "Plugins/DMMPlugin.zip",
@@ -45,8 +45,8 @@
     },
     {
       "path": "Plugins/SendGameStatusPlugin.zip",
-      "size": 335984,
-      "sha256": "8b22fb37df8fc5bb1da3b3905b350db6256b9173111efe382ac59a72fd6577e5"
+      "size": 338994,
+      "sha256": "0d58662ed64d7a54fa7cc8e11fac8051ad67941d8800b4ab904a7b15ddcee4a2"
     },
     {
       "path": "Plugins/SkillEffectPlugin.zip",
@@ -71,7 +71,7 @@
     {
       "path": "version.json",
       "size": 74,
-      "sha256": "3912ac3dd0fd5b271137308861bb2c2c15c103312a2d745540dcaeeb2f6d90e2"
+      "sha256": "0a22cddc3c29f231d64874bb3060b25d93ef970f2ac0ea9cda3e8b2410d5673d"
     }
   ]
 }
