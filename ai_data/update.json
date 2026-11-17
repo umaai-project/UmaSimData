@@ -1,12 +1,12 @@
 {
   "protocol": 1,
-  "version": "2026-11-16 14:06:31.982470",
-  "date": "2026-11-16 14:06:31.982470",
+  "version": "2026-11-17 21:57:10.077444",
+  "date": "2026-11-17 21:57:10.077444",
   "files": [
     {
       "path": "umaDB.json",
-      "size": 142204,
-      "sha256": "8ad72734b9f260543e552ae70ae8b9b04f81a8136e43d5bce063326f8d8e08af"
+      "size": 142168,
+      "sha256": "3a6df988e84b5ac610b1b566112e781974d01cf061943edb71e4430e316c02c5"
     },
     {
       "path": "cardDB.json",
@@ -15,8 +15,8 @@
     },
     {
       "path": "text_data_dict.json",
-      "size": 5817450,
-      "sha256": "15edb2e8bf0a35659d7cd9969c8c678a8be8a0eaafd588ccae10e674397b911e"
+      "size": 5863495,
+      "sha256": "b6b834c3315020178b62ab5afa73f12c843b18f79f4e2703d30f1bb409d77e54"
     }
   ],
   "schema_version": 1
