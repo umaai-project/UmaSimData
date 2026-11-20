@@ -1,7 +1,7 @@
 {
   "protocol": 1,
-  "version": "2026-11-15 19:29:37.683405",
-  "date": "2026-11-15 19:29:37.683405",
+  "version": "2026-11-20 22:56:32.150590",
+  "date": "2026-11-20 22:56:32.150590",
   "files": [
     {
       "path": "Plugins/DMMPlugin.zip",
@@ -10,13 +10,13 @@
     },
     {
       "path": "Plugins/EventLoggerPlugin.zip",
-      "size": 905512,
-      "sha256": "7c653e93de85c1516e97112d61e26d82abed24c54f927770916b2feaef3a689b"
+      "size": 906998,
+      "sha256": "8107bb46ceaa37d8fe4d4d575206b3e9268233582ac5768538961ebb4d057359"
     },
     {
       "path": "Plugins/EventResponseAnalyzer.zip",
-      "size": 51453,
-      "sha256": "a363193a784335bb8b7a30cc9928f1f59c1bf44b9974dbc3902428b656684869"
+      "size": 32514,
+      "sha256": "62388acda4c2dca2ff4fe1def7804791f49cd169e3ec332d9ecaa148b6352f8e"
     },
     {
       "path": "Plugins/FestaScenarioAnalyzer.zip",
@@ -40,8 +40,8 @@
     },
     {
       "path": "Plugins/RamenScenarioAnalyzer.zip",
-      "size": 46323,
-      "sha256": "65e1c3cf941a01a6b7bbc65fc087a0dea734e993af6fd460ef38b5b2cb597827"
+      "size": 46063,
+      "sha256": "056163cb2640319bdfddb886e44160091714bbc54b08b8ce67927d9c0553afbf"
     },
     {
       "path": "Plugins/SendGameStatusPlugin.zip",
@@ -71,7 +71,7 @@
     {
       "path": "version.json",
       "size": 74,
-      "sha256": "0a22cddc3c29f231d64874bb3060b25d93ef970f2ac0ea9cda3e8b2410d5673d"
+      "sha256": "8aa2471227e9098580374b4a98642b6b29a9171af9a8f41459d51b8065305078"
     }
   ]
 }

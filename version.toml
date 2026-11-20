@@ -16,7 +16,7 @@ sha1 = "b44268fa7254644ada0e47c19650c3acc6062faa"
 
 [ura_plugins]
 name = "小黑板插件"
-date = "2026-11-15 19:29:37.683405"
+date = "2026-11-20 22:56:32.150590"
 filelist = ["Plugins/DMMPlugin.zip", "Plugins/EventLoggerPlugin.zip", "Plugins/EventResponseAnalyzer.zip", "Plugins/FestaScenarioAnalyzer.zip", "Plugins/GamePacketCollector.zip", "Plugins/PioneerScenarioAnalyzer.zip", "Plugins/RaceAnalyzer.zip", "Plugins/RamenScenarioAnalyzer.zip", "Plugins/SendGameStatusPlugin.zip", "Plugins/SkillEffectPlugin.zip", "Plugins/SkillTipsResponseAnalyzer.zip", "Plugins/TeamStadiumOpponentListResponseAnalyzer.zip", "Plugins/WinSaddleAnalyzer.zip", "version.json"]
 glob = ["Plugins/*.zip"]
 version_file = "version.json"
